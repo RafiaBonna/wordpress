@@ -1,0 +1,46 @@
+/*
+Theme Name: Eliteflow
+Theme URI: https://themegrove.com/products/elitegrove/
+Author: Themegrove
+Author URI: https://themegrove.com/
+Description: Welcome to Eliteflow, a sophisticated full-site editing theme tailored for businesses, consulting firms, law practices, and educational institutions. Combining modern design with powerful functionality, Eliteflow allows you to easily customize every aspect of your website. It integrates seamlessly with WooCommerce for e-commerce solutions, WPML for multilingual support, and Contact Form 7 for streamlined communication. Whether you're starting a consultancy, law firm, or educational platform, Eliteflow offers the flexibility and professionally designed templates you need to build a strong online presence—all optimized for SEO to enhance your visibility. Demo: https://demos.themegrove.com/eliteflow/
+Template: elitegrove
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.0
+Version: 1.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: eliteflow
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio, news
+*/
+
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-inline: 20px;
+  }
+}
+
+body a.wp-block-post-excerpt__more-link,
+body .tag-cloud-link,
+body .taxonomy-post_tag a,
+body .page-numbers {
+  color: var(--wp--preset--color--white);
+}
+
+@media (max-width: 1024px) {
+  .eliteflow-services {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .eliteflow-services {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+}

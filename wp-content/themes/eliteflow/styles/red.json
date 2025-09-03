@@ -1,0 +1,67 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Red",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#cd2a2a",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#730000",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#3F2CDF",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#D7D4DD",
+					"name": "Secondary Background",
+					"slug": "secondary-bg"
+				},
+				{
+					"color": "#fff",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#000",
+					"name": "Black",
+					"slug": "black"
+				},
+				{
+					"color": "#F4F4F4",
+					"name": "Base",
+					"slug": "base"
+				},
+
+				{
+					"color": "#0C0C0C",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#121212",
+					"name": "Dark Text Color",
+					"slug": "dark-text-color"
+				},
+				{
+					"color": "#111111",
+					"name": "Link Color",
+					"slug": "link-color"
+				},				
+				{
+					"color": "#981a1a",
+					"name": "Button Hover Color",
+					"slug": "button-hover-color"
+				}
+			]
+		}	
+	}
+}
