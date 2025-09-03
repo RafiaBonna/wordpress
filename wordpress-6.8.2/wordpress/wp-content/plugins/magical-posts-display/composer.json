@@ -1,0 +1,6 @@
+{
+    "require": {
+        "appsero/client": "^2.0.4",
+        "htmlburger/carbon-fields": "^3.6"
+    }
+}

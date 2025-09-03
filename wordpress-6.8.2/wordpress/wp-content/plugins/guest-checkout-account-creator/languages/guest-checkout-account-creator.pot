@@ -1,0 +1,108 @@
+# Copyright (C) 2024 Guest Checkout Account Creator
+# This file is distributed under the same license as the Guest Checkout Account Creator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Guest Checkout Account Creator 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wpthemespace.com\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-18T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: guest-checkout-account-creator\n"
+
+#: includes/admin/class-gueschac-wc-settings.php:27
+msgid "Guest Checkout Accounts"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:113
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:127
+msgid "Guest Checkout Account Settings"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:129
+msgid "Configure how guest checkout accounts are created."
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:135
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:136
+msgid "Enable automatic account creation for guest checkouts"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:143
+msgid "Minimum Order Value"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:144
+msgid "Only create accounts for orders above this amount (optional)"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:156
+msgid "Welcome Email Subject"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:157
+msgid "Available placeholders: {site_name}, {customer_name}"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:158
+msgid "Welcome to {site_name} - Your Account Details"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:165
+msgid "Welcome Email Content"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:166
+msgid "Available placeholders: {site_name}, {customer_name}, {customer_email}, {customer_password}, {my_account_url}, {order_number}"
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:217
+#: includes/admin/class-gueschac-wc-settings.php:223
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: includes/admin/class-gueschac-wc-settings.php:228
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-gueschac-account-creator.php:29
+msgid "No email address provided"
+msgstr ""
+
+#: includes/class-gueschac-account-creator.php:35
+msgid "Email address already registered"
+msgstr ""
+
+#: includes/gueschac-functions.php:145
+msgid "Guest Checkout Account Creator requires %s to be installed and active."
+msgstr ""
+
+#: includes/admin/admin-init.php:65
+msgid "Guest Checkout Account Creator is now active! %s to configure the plugin."
+msgstr ""
+
+#: includes/admin/admin-init.php:66
+msgid "Go to Settings"
+msgstr ""
+
+#: guest-checkout-account-creator.php:219
+msgid "Guest Checkout Account Creator requires WooCommerce to be installed and active."
+msgstr ""
+
+#: guest-checkout-account-creator.php:220
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: guest-checkout-account-creator.php:273
+msgid "Settings"
+msgstr ""
